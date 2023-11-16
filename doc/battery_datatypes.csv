@@ -1,0 +1,26 @@
+﻿balancechargerequest,0,N/A,"Module request for balance charge, 0 for false, 1 for true",Boolean
+chargecurrentlimit,38,A,Module charge current limit,Float
+cyclecount,344,N/A,Number of charge/discharge cycles,Integer
+dischargecurrentlimit,38,A,Module discharge current limit,Float
+fullchargecapacity,96.922,Ah,Fullcharge capacity,Float
+maximumcelltemperature,28.05,ºC,Max cell temperature,Float
+maximumcellvoltage,3.327,V,Max cell voltage,Float
+maximumcellvoltagenum,0,-,-,Enum
+maximummodulecurrent,-0.01,A,Max module DC current,Float
+maximummoduledcvoltage,106.27,V,Max module DC voltage,Float
+maximummoduletemperature,-273.15,ºC,Max module DC temperature,Float
+minimumcelltemperature,22.05,ºC,Min cell temperature,Float
+minimumcellvoltage,3.293,V,Min cell voltage,Float
+minimumcellvoltagenum,0,-,-,Enum
+minimummodulecurrent,-0.05,A,Min module current,Float
+minimummoduledcvoltage,105.528,V,Min module voltage,Float
+minimummoduletemperature,-273.15,ºC,Min module temperature,Float
+relativestateofcharge,79,"%, percentage",Relative state of charge,Float
+remainingcapacity,79.941,Ah,Remaining capacity in Ah,Float
+systemalarm,0,N/A,"System alarm, 0 for false, 1 for true",Boolean
+systemcurrent,0,A,System current,Float
+systemdcvoltage,211.797,V,System battery voltage,Float
+systemstatus,49,N/A,System status,Integer
+systemtime,0,N/A,System time,Boolean
+systemwarning,0,N/A,"System warning, 0 for false, 1 for true",Boolean
+sourceofthis,0,N/A,http://10.14.15.69/api/doc.html#/api/getApiV2Battery,String
