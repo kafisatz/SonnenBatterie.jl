@@ -1,7 +1,9 @@
 # syntax = docker/dockerfile:1.2
 #choose a base image
 #FROM julia:1.9.3
-FROM julia:1.9.4-alpine
+#FROM julia:1.9.4-alpine
+FROM julia:1.9.4 
+#maybe due to pyCall it is better not to use the alpine version? 
 
 # mark it with a label, so we can remove dangling images
 LABEL cicd="sonnenbatteriestats"
