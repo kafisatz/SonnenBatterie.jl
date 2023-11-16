@@ -1,3 +1,7 @@
+using Pkg
+Pkg.activate(".")
+Pkg.instantiate()
+
 using Dates; using DataFrames; using JSON3; using PyCall; using InfluxDBClient
 using SonnenBatterie
 
