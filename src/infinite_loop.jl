@@ -34,7 +34,7 @@ end
 #make sure that you have a bucket 'sonnenbatterie' in your InfluxDB (of course you can change the name here)
 influxdb_bucketname = "sonnenbatterie"
 
-nsecsleep = 5 #seconds to sleep between iterations <-> data is written ever x seconds to influxdb
+nsecsleep = 30 #seconds to sleep between iterations <-> data is written ever x seconds to influxdb
 while true
     try
         @time rs1,rs2,battery,powermeter = read_and_write(influxdbsettings,influxdb_bucketname,SONNEN_USERNAME, SONNEN_PASSWORD, SONNEN_IP);
